@@ -386,3 +386,8 @@ export const postJobCoordinator = async (
     body: body,
   });
 };
+
+export const fetchEvents = async () => {
+  return apiCall("/events");
+
+};
